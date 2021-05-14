@@ -1,0 +1,387 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    
+    background: #EEF2F5
+}
+/*    <!--==================================== START NAVBAR====================-->*/
+.navbar-expand-lg
+{
+    background: #EEF2F5;;
+}
+.navbar-toggler .fa
+{
+    color: #313ECA;
+}
+.navbar-brand img,
+.navbar-brand h3
+{
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    margin-right: 10px;
+    color: #313ECA;
+    margin-left: 30px;
+}
+.nav-item
+{
+    margin-left: 10px;
+}
+.nav-link
+{
+    color: #5D67D5;
+    margin-right: 10px;
+    transition: 0.2s ease;
+}
+.nav-item a:hover
+{
+    color: #20FDB5;
+}
+/*    <!--==================================== END NAVBAR====================-->*/
+
+/*    <!--==================================== START HEADER====================--> */
+    
+.header
+{
+    height: auto;
+    background: url('../img/header.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    clip-path: polygon(0 0, 100% 0%, 100% 83%, 0 100%);
+}
+.blur
+{
+    background: linear-gradient(120deg, rgba(0, 22, 255, 0.76) 20%, rgba(0, 11, 59, 0.5) 100%);
+    height: auto;
+}
+.header img
+{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+.header h1
+{
+    
+    padding-top: 10%;
+    color: #fff;
+    padding-bottom: 50px;
+}
+.headerContain h4,p
+{
+    color: #fff;
+}
+.headerContain p
+{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.headerContain button
+{
+    padding: 10px;
+    width: 35%;
+    margin-bottom: 18%;
+    margin-right: 20px;
+    background: #01E399;
+    border: none;
+    color: #3642CE;
+    font-size: 14px;
+    font-family: 'roboto';
+    transition: all 0.3s ease;
+}
+.headerContain button:hover
+{
+    background: #23ffb7; 
+    color: #3642CE;
+}
+ 
+/*    <!--==================================== END HEADER====================-->*/
+
+/*    <!--==================================== START FUANADB====================-->*/
+.faunaDB
+{
+    background: #EEF2F5;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+.faunaDB .type h3
+{
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.faunaDB .type p
+{
+    color: #444;
+    padding-bottom: 30px;
+}
+.faunaDB img
+{
+    width: 70%;
+}
+.col-md-4
+{
+    padding-top: 30px;
+}
+.faunaDBContain
+{
+    background: #FAFAFA;
+    height: 200px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 50px;
+    position: relative;
+    margin-top: 30px;
+}
+.faunaDBContain .fa
+{
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #C772EA;
+    text-indent: 13px;
+    line-height: 60px;
+    position: absolute;
+    top: -25px;
+    left: 40%;
+    color: #fff;
+}
+/*    <!--==================================== END FUANADB====================-->*/
+
+/*    <!--==================================== START SERVICES====================-->*/
+.services
+{
+    background: #FAFAFA;
+     overflow-x: hidden;
+}
+.servicesContain
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.servicesContain h1
+{
+    padding-top: 28%;
+    font-size: 25px;
+    text-align: left;
+}
+.servicesContain p
+{
+    color: #000;
+    text-align: left;
+   
+}
+
+/*    <!--==================================== END SERVICES====================-->*/
+/*================================END JOIN =======================================*/
+
+.join
+{
+    background: url('../img/join.jpg');
+    color: white;
+}
+.join h1
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.join img
+{
+    border-radius: 5px;
+    width: 175px;
+    height: 60px;
+}
+.col-md-3
+{
+    padding-bottom: 30px;
+}
+/*<!--===================================== END JOIN ====================-->*/
+
+/*<!--===================================== END ABOUT ====================-->*/
+
+.about
+{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: #EEF2F5;
+}
+.aboutContain h1
+{
+    color: #444; 
+    padding-bottom: 20px;
+}
+.aboutContain p
+{
+    color: #797979;
+}
+
+/*<!--===================================== END ABOUT ====================-->*/
+
+/*<!--===================================== START CAROUSEL ====================-->*/
+
+.carousel-indicators.carousel-number li
+{
+    opacity: .8;
+    text-indent: 5px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #000;
+    border-radius: 100%;
+    color: #000;
+    background: transparent;
+    transition: .5s ease;
+    margin: 0 2px;
+    line-height: 15px;
+    bottom: 0;
+    font-size: 10px;
+}
+.carousel-indicators.carousel-number li.active,
+.carousel-indicators.carousel-number li:hover
+{
+    background: #717070;
+    color: #000;
+}
+.carousel
+{
+    width: 80%; 
+    background: #fff;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.blockquote
+{
+    
+    display: flex;
+    margin: auto;
+    align-items: center;
+    font-size: 17px;
+    padding: 40px 50px 40px 60px;
+}
+.blockquote-logo
+{
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+}
+.blockquote-quate p
+{
+    color: black;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.carouselFade .fa
+{
+    color: #717070;
+    font-size: 30px;
+}
+
+/*<!--===================================== END CAROUSEL ====================-->*/
+
+/*<!--===================================== START GETSTARTED ====================-->*/
+
+.getStarted
+{
+    background: url('../img/getStarted.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.getContain
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: #fff;
+}
+.getContain h2,p
+{
+    padding-bottom: 15px;
+}
+.getContain button
+{
+    padding: 10px;
+    width: 35%;
+    margin-bottom: 2%;
+    margin-right: 20px;
+    background: #01E399;
+    border: none;
+    color: #3642CE;
+    font-size: 14px;
+    font-family: 'roboto';
+    transition: all 0.3s ease;
+}
+.getContain button:hover
+{
+    background: #23ffb7; 
+    color: #3642CE;
+}
+/*<!--===================================== END GETSTARTED ====================-->*/
+
+/*<!--===================================== START FOOTER ====================-->*/
+
+.footer
+{
+    padding-top: 50px;
+}
+.footerContain
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footerContain p
+{
+    color: #717070;
+    margin: 0;
+    padding: 0;
+    margin-top: -30px;
+    padding-bottom: 50px;
+    font-size: small
+}
+.footerContain span
+{
+    font-size: 11px;
+}
+.footerContain span a
+{
+    display: inline
+}
+.footerContain i
+{
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    border: 1px solid blue;
+    margin: 20px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    background: #323FCB;
+    cursor: pointer;
+}
+.footerContain strong
+{
+    font-size: 14px;
+    color: #717070;
+}
+.footerContain a
+{
+    display: block;
+    margin-top: 20px;
+}
+
+/*<!--===================================== END FOOTER ====================-->*/
